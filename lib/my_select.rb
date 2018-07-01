@@ -1,3 +1,10 @@
 def my_select(collection)
- # your code here!
+ new_array = [] 
+ index = 0 
+ while index < collection.length 
+  new_val = yield array[index]
+  if new_val
+    new_array << new_val
+  end
+  new_array
 end

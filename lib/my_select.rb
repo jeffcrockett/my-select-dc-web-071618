@@ -6,5 +6,7 @@ def my_select(collection)
   if new_val
     new_array << new_val
   end
+  index += 1
+  end
   new_array
 end
